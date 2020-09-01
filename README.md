@@ -30,7 +30,7 @@ make
 sudo make install
 ```
 
-Openssl installation:
+cURL installation:
 
 ```
 wget -c curl.haxx.se/download/curl-7.67.0.tar.gz
