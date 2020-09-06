@@ -178,8 +178,8 @@ Telegrab::Telegrab(std::string str):fatalError(false), last_update_id(0), last_f
 					temp["token"] = str;
 					temp["polling"]["limit"] = 100; limit = 100;
 					temp["polling"]["interval"] = 0; interval = 0;
-					temp["polling"]["timeout"] = 10; timeout = 10;
-					temp["polling"]["retryTimeout"] = 30; retryTimeout = 30;
+					temp["polling"]["timeout"] = 30; timeout = 30;
+					temp["polling"]["retryTimeout"] = 10; retryTimeout = 10;
 					file << temp;
 					file.close();
 				}
