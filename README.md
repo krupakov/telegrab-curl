@@ -86,8 +86,8 @@ Usually **config.json** file will look like this:
   {
     "interval":0,
     "limit":100,
-    "timeout":10,
-    "retryTimeout":30
+    "timeout":30,
+    "retryTimeout":10
   },
   "token":"123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 }
